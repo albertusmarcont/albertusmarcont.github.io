@@ -1,0 +1,35 @@
+body {
+background-color:#DAA520;
+color: #8B0000;
+font-family: sans-serif;
+}
+a:link, a:visited {
+color: #8B0000;
+text-decoration: none;
+}
+a:hover {
+color: #F8F8FF;
+font-weight: bold;
+text-decoration: underline;
+}
+.heading {
+text-align: center;
+border: 1px solid;
+padding: 15px;
+border-radius: 10px;
+}
+.link {
+list-style-type: none;
+}
+.menu {
+width: 300px;
+background-color: #E6E6FA;
+margin: 5px;
+margin-left: auto;
+margin-right: auto;
+padding: 5px;
+text-align: center;
+}
+.gambar {
+width: 350px;
+}
