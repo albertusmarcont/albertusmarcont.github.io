@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Hutan Lindung Di Indonesia</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon"></head>
+  <body>
+    <nav class="judul" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="hutanlist.html" class="brand-logo green-text">
+          <img src="img/logo.png" alt="logo" style="height:38px;">  5 Hutan Lindung Di Indonesia</a>
+
+          <ul class="right hide-on-med-and-down">
+            <li><a href="hutanlist.html" class="green-text">Home</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav judul">
+            <li><a href="hutanlist.html" class="green-text">Home</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+
+<h2 class="center">Tentang Hutan Lindung</h2>
+<img class="hutan"src="img/hutan.jpg" alt="">
+<hr>
+
+<h5>
+<p> Hutan lindung (protected forest) adalah kawasan hutan yang telah ditetapkan oleh pemerintah atau kelompok masyarakat tertentu untuk dilindungi,
+  agar fungsi-fungsi ekologisnya—terutama menyangkut tata air dan kesuburan tanah—tetap dapat berjalan dan dinikmati manfaatnya oleh masyarakat di sekitarnya.
+  Undang-undang RI no 41/1999 tentang Kehutanan menyebutkan:</p>
+<p> Hutan lindung adalah kawasan hutan yang mempunyai fungsi pokok sebagai perlindungan sistem penyangga kehidupan untuk mengatur tata air, mencegah banjir,
+  mengendalikan erosi, mencegah intrusi air laut, dan memelihara kesuburan tanah.“
+  Dari pengertian di atas tersirat bahwa hutan lindung dapat ditetapkan di wilayah hulu sungai (termasuk pegunungan di sekitarnya) sebagai wilayah tangkapan hujan (catchment area),
+  di sepanjang aliran sungai bilamana dianggap perlu, di tepi-tepi pantai (misalnya pada hutan bakau), dan tempat-tempat lain sesuai fungsi yang diharapkan.</p>
+<p> Dalam hal ini, undang-undang tersebut juga menjelaskan bahwa yang dimaksud sebagai kawasan hutan dalam pengertian di atas adalah:
+    wilayah tertentu yang ditunjuk dan atau ditetapkan oleh Pemerintah untuk dipertahankan keberadaannya sebagai hutan tetap.“</p>
+</h5>
+<hr>
+
+<h3 class="center"> Tentang Penulis</h3>
+<h6> Perkenalkan nama saya Albertus Marco Novellium Theovanus, saya mahasiswa STMIK KHARISMA Makassar Angkatan 2018 Jurusan Sistem Informasi.
+Webseite ini saya buat untuk menyelesaikan Tugas Akhir dari mata kuliah Desain Web dan Pemrograman Web. Semoga website ini dapat bermanfaat bagi pembacanya.</h6>
+    <footer class="page-footer">
+      <div class="container">
+        <p class="m-0 center green-text">Copyright &copy; Hutan Lindung Di Indonesia</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/api.js"></script>
+
+    <!-- <script type="text/javascript" src="js/loadpage.js"></script> -->
+    <script type="text/javascript" src="js/database.js"></script>
+
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var ID = urlParams.get("ID");
+        getHutanDetail( ID );
+      });
+    </script>
+  </body>
+</html>
