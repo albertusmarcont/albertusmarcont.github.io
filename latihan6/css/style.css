@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Custom Stylesheet */
 /**
  * Use this file to override Materialize files so you can update
@@ -34,3 +35,41 @@ height: 200px;
 a:link, a:visited {
   text-decoration: none;
 }
+=======
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.bluechef {
+background-color: #751616;
+}
+.bluechef-text {
+color: #751616;
+}
+.collection a.collection-item {
+    color: #fad311;
+}
+.collection {
+    border: 1px solid Red;
+}
+.collection .collection-item {
+    border-bottom: 1px solid Red;
+}
+.iconmenuimg {
+  width: 200px;
+height: 200px;
+}
+a:link, a:visited {
+  text-decoration: none;
+}
+>>>>>>> b9ac45560cb3bf8fde13a8bc0b4966c582238f50
