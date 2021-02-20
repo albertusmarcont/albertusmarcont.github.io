@@ -1,4 +1,4 @@
-const endpoint_url = 'https://51018001.p-web.clik/api';
+const endpoint_url = 'https://51018001.p-web.clik/hutan/api';
 
 document.addEventListener("DOMContentLoaded", function(){
   getHutan();
